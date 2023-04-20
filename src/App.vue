@@ -7,15 +7,12 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#">Tarefas</b-nav-item>
-        <b-nav-item href="#">Formulário</b-nav-item>
+        <b-nav-item to="/">Tarefas</b-nav-item>
+        <b-nav-item to="/form">Formulário</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+
     <router-view/>
   </div>
 </template>
